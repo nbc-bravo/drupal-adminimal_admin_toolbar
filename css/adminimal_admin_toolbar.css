@@ -12,7 +12,7 @@
 
 .adminimal-admin-toolbar .toolbar .toolbar-bar {
   box-shadow: none;
-  background-color: #2D2D2D;
+  background-color: #2d2d2d;
 }
 
 .adminimal-admin-toolbar .toolbar .toolbar-menu {
@@ -25,13 +25,13 @@
 }
 
 .adminimal-admin-toolbar .toolbar-tray a {
-  color: #BBBBBB;
+  color: #bbb;
 }
 .adminimal-admin-toolbar .toolbar-tray-horizontal a:hover,
 .adminimal-admin-toolbar .toolbar-tray-horizontal a:active,
 .adminimal-admin-toolbar .toolbar-tray-horizontal a:focus {
   background: #0074bd;
-  color: #BBBBBB;
+  color: #bbb;
   text-decoration: none;
 }
 
@@ -44,12 +44,12 @@
 }
 
 .adminimal-admin-toolbar .toolbar .toolbar-bar .toolbar-item {
-  color: #BEBEBE;
+  color: #bebebe;
 }
 
 .adminimal-admin-toolbar .toolbar .toolbar-bar .toolbar-tab > .toolbar-item:hover {
   background-image: none;
-  background-color: #2D2D2D;
+  background-color: #2d2d2d;
   color: #fff;
   text-decoration: none;
 }
@@ -123,12 +123,13 @@
   background-image: url(../images/chevron-disc-up.svg);
 }
 
-.adminimal-admin-toolbar .toolbar-tray-horizontal a:focus, .toolbar-box a:focus {
+.adminimal-admin-toolbar .toolbar-tray-horizontal a:focus,
+.toolbar-box a:focus {
   background: transparent;
 }
 
 .adminimal-admin-toolbar .toolbar .toolbar-tray-vertical .toolbar-menu a {
-  color: #BBB;
+  color: #bbb;
 }
 
 .adminimal-admin-toolbar .toolbar .toolbar-tray-vertical .toolbar-menu a:hover {
@@ -164,7 +165,7 @@
 }
 
 .adminimal-admin-toolbar .toolbar-tray-horizontal ul li.menu-item--expanded ul li.menu-item--expanded:after {
-  color: #8EACC0;
+  color: #8eacc0;
   content: "\25A0";
   font-size: 16px;
   pointer-events: none;
@@ -175,7 +176,7 @@
 }
 
 .adminimal-admin-toolbar .toolbar .toolbar-menu .toolbar-menu a {
-  color: #BBB;
+  color: #bbb;
 }
 
 .adminimal-admin-toolbar .toolbar-tray-horizontal ul li.menu-item {

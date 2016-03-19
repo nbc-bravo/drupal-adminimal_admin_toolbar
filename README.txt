@@ -9,3 +9,9 @@ Installation
 ------------
 
 By downloading and enabling this module styling will be applied.
+
+
+Dependencies
+------------
+
+- admin_toolbar

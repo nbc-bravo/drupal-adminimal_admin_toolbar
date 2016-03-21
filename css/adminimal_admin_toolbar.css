@@ -35,7 +35,8 @@
   text-decoration: none;
 }
 
-.adminimal-admin-toolbar .toolbar-tray-horizontal .menu-item--expanded:hover > a {
+.adminimal-admin-toolbar .toolbar-tray-horizontal .menu-item--expanded:hover > a,
+.adminimal-admin-toolbar .toolbar-tray-horizontal .menu-item--expanded:hover > .toolbar-box > a {
   background: #0074bd;
 }
 

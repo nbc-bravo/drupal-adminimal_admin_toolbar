@@ -38,6 +38,9 @@
 .adminimal-admin-toolbar .toolbar .toolbar-menu {
   background: #333;
 }
+.adminimal-admin-toolbar .toolbar-oriented .user-toolbar-tab {
+  float: right;
+}
 
 .adminimal-admin-toolbar .toolbar .toolbar-tray-vertical {
   border: none;

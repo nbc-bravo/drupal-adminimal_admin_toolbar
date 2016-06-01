@@ -188,6 +188,10 @@
   padding: 1em 12px;
 }
 
+.adminimal-admin-toolbar .toolbar-tray-horizontal ul li.menu-item--expanded .menu-item:hover ul {
+  margin: -39px 0 0 200px;
+}
+
 .adminimal-admin-toolbar .toolbar-tray-horizontal ul li.menu-item--expanded ul li.menu-item--expanded:after {
   color: #8eacc0;
   content: "\25A0";
@@ -217,6 +221,11 @@
 
 .adminimal-admin-toolbar .toolbar .toolbar-tray-horizontal ul  ul li.menu-item:first-child {
   border-top: 1px solid #0074bd;
+}
+
+/* Removes border top on next consecutive lists after first */
+.adminimal-admin-toolbar .toolbar-tray-horizontal ul ul li li.menu-item:first-child {
+  border-top: none !important;
 }
 
 /* Main menu icons. */

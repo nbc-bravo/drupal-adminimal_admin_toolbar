@@ -218,3 +218,45 @@
 .adminimal-admin-toolbar .toolbar .toolbar-tray-horizontal ul  ul li.menu-item:first-child {
   border-top: 1px solid #0074bd;
 }
+
+/* Main menu icons. */
+
+.adminimal-admin-toolbar .toolbar-icon-system-admin-content:active:before,
+.adminimal-admin-toolbar .toolbar-icon-system-admin-content.is-active:before {
+  background-image: url(/core/themes/stable/images/core/icons/787878/file.svg);
+}
+
+.adminimal-admin-toolbar .toolbar-icon-system-admin-structure:active:before,
+.adminimal-admin-toolbar .toolbar-icon-system-admin-structure.is-active:before {
+  background-image: url(/core/themes/stable/images/core/icons/787878/orgchart.svg);
+}
+
+.adminimal-admin-toolbar .toolbar-icon-system-themes-page:active:before,
+.adminimal-admin-toolbar .toolbar-icon-system-themes-page.is-active:before {
+  background-image: url(/core/themes/stable/images/core/icons/787878/paintbrush.svg);
+}
+
+.adminimal-admin-toolbar .toolbar-icon-entity-user-collection:active:before,
+.adminimal-admin-toolbar .toolbar-icon-entity-user-collection.is-active:before {
+  background-image: url(/core/themes/stable/images/core/icons/787878/people.svg);
+}
+
+.adminimal-admin-toolbar .toolbar-icon-system-modules-list:active:before,
+.adminimal-admin-toolbar .toolbar-icon-system-modules-list.is-active:before {
+  background-image: url(/core/themes/stable/images/core/icons/787878/puzzlepiece.svg);
+}
+
+.adminimal-admin-toolbar .toolbar-icon-system-admin-config:active:before,
+.adminimal-admin-toolbar .toolbar-icon-system-admin-config.is-active:before {
+  background-image: url(/core/themes/stable/images/core/icons/787878/wrench.svg);
+}
+
+.adminimal-admin-toolbar .toolbar-icon-system-admin-reports:active:before,
+.adminimal-admin-toolbar .toolbar-icon-system-admin-reports.is-active:before {
+  background-image: url(/core/themes/stable/images/core/icons/787878/barchart.svg);
+}
+
+.adminimal-admin-toolbar .toolbar-icon-help-main:active:before,
+.adminimal-admin-toolbar .toolbar-icon-help-main.is-active:before {
+  background-image: url(/core/themes/stable/images/core/icons/787878/questionmark-disc.svg);
+}

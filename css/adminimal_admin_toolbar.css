@@ -148,7 +148,7 @@
 }
 
 .adminimal-admin-toolbar .toolbar-tray-horizontal a:focus,
-.toolbar-box a:focus {
+.adminimal-admin-toolbar .toolbar-box a:focus {
   background: transparent;
 }
 

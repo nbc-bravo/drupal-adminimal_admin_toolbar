@@ -118,6 +118,10 @@
   background-color: #333;
 }
 
+.toolbar .toolbar-icon:before {
+  transition: .25s;
+}
+
 .adminimal-admin-toolbar .toolbar .toolbar-icon.toolbar-handle:focus {
   background-color: transparent;
 }

@@ -44,5 +44,5 @@ function adminimal_admin_toolbar_toolbar_alter(&$items) {
  */
 function _adminimal_admin_toolbar_is_access() {
   $user = \Drupal::currentUser();
-  return $user->hasPermission('access admin_toolbar');
+  return $user->hasPermission('access toolbar');
 }

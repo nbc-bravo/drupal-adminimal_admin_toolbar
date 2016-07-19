@@ -268,11 +268,9 @@
 
 /* Main menu icons. */
 .adminimal-admin-toolbar .toolbar-icon-admin-toolbar-tools-help:before {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  background-image: url(../images/787878/drupal-8.svg);
   margin-left: 7px;
   padding: 0px;
-  transform: scale(.9);
 }
 
 .adminimal-admin-toolbar .toolbar-tray-vertical .toolbar-icon-admin-toolbar-tools-help:before {
@@ -317,6 +315,11 @@
 .adminimal-admin-toolbar .toolbar-icon-help-main:active:before,
 .adminimal-admin-toolbar .toolbar-icon-help-main.is-active:before {
   background-image: url(/core/themes/stable/images/core/icons/787878/questionmark-disc.svg);
+}
+
+.adminimal-admin-toolbar .toolbar-tray-horizontal .menu-item--expanded:hover .toolbar-icon-admin-toolbar-tools-help:before,
+.adminimal-admin-toolbar .toolbar-icon-admin-toolbar-tools-help:hover:before {
+  background-image: url(../images/ffffff/drupal-8.svg);
 }
 
 .adminimal-admin-toolbar .toolbar-tray-horizontal .menu-item--expanded:hover .toolbar-icon-system-admin-content:before,

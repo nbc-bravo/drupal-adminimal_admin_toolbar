@@ -22,6 +22,10 @@
   font-family: "Open Sans";
 }
 
+.adminimal-admin-toolbar.toolbar-fixed.toolbar-vertical {
+  padding-top: 32px !important;
+}
+
 .adminimal-admin-toolbar .toolbar a {
   transition: all, 0.2s;
 }

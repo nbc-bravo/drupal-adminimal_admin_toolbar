@@ -243,7 +243,8 @@
 .adminimal-admin-toolbar .toolbar .menu-item--expanded {
   background-color: #333;
 }
-.adminimal-admin-toolbar .toolbar-tray-horizontal ul li.menu-item--expanded ul li.menu-item--expanded {
+.adminimal-admin-toolbar .toolbar-tray-horizontal ul li.menu-item--expanded ul li.menu-item--expanded,
+[dir="rtl"] .adminimal-admin-toolbar .toolbar-tray-horizontal ul li.menu-item--expanded ul li.menu-item--expanded {
   background-image: none;
   position: relative;
 }
@@ -255,6 +256,9 @@
 .adminimal-admin-toolbar .toolbar-tray-horizontal ul li.menu-item--expanded .menu-item:hover ul {
   margin: -39px 0 0 200px;
 }
+[dir="rtl"] .adminimal-admin-toolbar .toolbar-tray-horizontal ul li.menu-item--expanded .menu-item:hover ul {
+  margin: -39px 200px 0 0;
+}
 
 .adminimal-admin-toolbar .toolbar-tray-horizontal ul li.menu-item--expanded ul li.menu-item--expanded:after {
   color: #8eacc0;
@@ -265,12 +269,34 @@
   right: 5px;
   top: 50%;
   transform: translateY(-8px);
-  transition: all .2s
+  transition: all .2s;
+}
+
+[dir="rtl"] .adminimal-admin-toolbar .toolbar-tray-horizontal ul li.menu-item--expanded ul li.menu-item--expanded:after {
+  right: auto;
+  left: 5px;
+  top: 30%;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
 }
 
 .adminimal-admin-toolbar .toolbar-tray-horizontal ul li.menu-item--expanded ul li.menu-item--expanded:hover:after {
   content: url(../images/ffffff/chevron-right.svg);
   transform: translate(6px, -8px);
+}
+
+[dir="rtl"] .adminimal-admin-toolbar .toolbar-tray-horizontal ul li.menu-item--expanded ul li.menu-item--expanded:hover:after {
+  transform-origin: 40% top;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
 }
 
 .adminimal-admin-toolbar .toolbar .toolbar-menu .toolbar-menu a {

@@ -215,8 +215,8 @@
   background-color: #333;
 }
 
-.adminimal-admin-toolbar .toolbar .menu-item:focus {
-  background: #abeae4;
+.adminimal-admin-toolbar .toolbar-tray-horizontal .menu-item a:focus {
+  background: #4c4c4c;
 }
 
 .adminimal-admin-toolbar .toolbar .menu-item--expanded {

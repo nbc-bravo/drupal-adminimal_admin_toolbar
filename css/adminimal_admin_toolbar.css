@@ -68,15 +68,12 @@
   color: #fff !important;
 }
 
-.adminimal-admin-toolbar .toolbar .toolbar-bar .toolbar-tab > .toolbar-item {
+.adminimal .toolbar .toolbar-bar .toolbar-tab:not(.workspaces-toolbar-tab) > .toolbar-item {
+  color: #bebebe;
   font-weight: 600;
 }
 
-.adminimal-admin-toolbar .toolbar .toolbar-bar .toolbar-item {
-  color: #bebebe;
-}
-
-.adminimal-admin-toolbar .toolbar .toolbar-bar .toolbar-tab > .toolbar-item:hover {
+.adminimal .toolbar .toolbar-bar .toolbar-tab:not(.workspaces-toolbar-tab) > .toolbar-item:hover {
   background-image: none;
   background-color: #2d2d2d;
   color: #fff;

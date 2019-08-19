@@ -17,6 +17,11 @@
   color: #ccc;
 }
 
+#toolbar-item-administration-search-tray label {
+  background: transparent;
+  color: #ccc !important;
+}
+
 .adminimal-admin-toolbar .toolbar-tray .toolbar-menu li {
   background: #333;
 }

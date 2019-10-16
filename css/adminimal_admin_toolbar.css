@@ -107,12 +107,15 @@
 
 .adminimal-admin-toolbar .toolbar .toolbar-tray {
   background-color: #333;
-  box-shadow: -2px 2px 12px rgba(0,0,0,0.85);
 }
 
 .adminimal-admin-toolbar .toolbar .toolbar-tray-horizontal {
   border-bottom: 1px solid #333;
   box-shadow: none;
+}
+
+.adminimal-admin-toolbar .toolbar .toolbar-tray-vertical {
+  box-shadow: -2px 2px 12px rgba(0,0,0,0.85);
 }
 
 .adminimal-admin-toolbar .toolbar .toolbar-toggle-orientation {

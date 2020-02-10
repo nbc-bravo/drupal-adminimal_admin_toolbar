@@ -122,6 +122,15 @@
   background-color: #333;
 }
 
+.adminimal-admin-toolbar .toolbar .toolbar-icon.toolbar-handle > span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+
 .adminimal-admin-toolbar .toolbar .toolbar-icon.toolbar-handle:focus {
   background-color: transparent;
 }

@@ -247,7 +247,7 @@
 }
 
 .toolbar-tray-horizontal .toolbar-menu:not(:first-child) li.menu-item--expanded > a:focus {
-    background-image: none !important;
+  background-image: none !important;
 }
 
 .adminimal-admin-toolbar .toolbar-tray-horizontal ul li.menu-item--expanded .menu-item:hover ul {

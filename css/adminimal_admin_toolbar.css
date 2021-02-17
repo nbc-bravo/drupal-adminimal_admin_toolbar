@@ -326,8 +326,14 @@
 }
 
 /* Main menu icons. */
-.adminimal-admin-toolbar .toolbar-icon-admin-toolbar-tools-help:before {
+.toolbar-icon-8.adminimal-admin-toolbar .toolbar-icon-admin-toolbar-tools-help:before {
   background-image: url(../images/acacac/drupal-8.svg);
+  margin-left: 7px;
+  padding: 0px;
+}
+
+.toolbar-icon-9.adminimal-admin-toolbar .toolbar-icon-admin-toolbar-tools-help:before {
+  background-image: url(../images/acacac/drupal-9.svg);
   margin-left: 7px;
   padding: 0px;
 }
@@ -368,11 +374,18 @@
   background-image: url(../images/acacac/questionmark-disc.svg);
 }
 
-.adminimal-admin-toolbar .toolbar-tray-horizontal .menu-item--expanded:hover .toolbar-icon-admin-toolbar-tools-help:before,
-.adminimal-admin-toolbar .toolbar-icon-admin-toolbar-tools-help:hover:before,
-.adminimal-admin-toolbar .toolbar-icon-admin-toolbar-tools-help:active:before,
-.adminimal-admin-toolbar .toolbar-icon-admin-toolbar-tools-help.is-active:before {
+.toolbar-icon-8.adminimal-admin-toolbar .toolbar-tray-horizontal .menu-item--expanded:hover .toolbar-icon-admin-toolbar-tools-help:before,
+.toolbar-icon-8.adminimal-admin-toolbar .toolbar-icon-admin-toolbar-tools-help:hover:before,
+.toolbar-icon-8.adminimal-admin-toolbar .toolbar-icon-admin-toolbar-tools-help:active:before,
+.toolbar-icon-8.adminimal-admin-toolbar .toolbar-icon-admin-toolbar-tools-help.is-active:before {
   background-image: url(../images/ffffff/drupal-8.svg);
+}
+
+.toolbar-icon-9.adminimal-admin-toolbar .toolbar-tray-horizontal .menu-item--expanded:hover .toolbar-icon-admin-toolbar-tools-help:before,
+.toolbar-icon-9.adminimal-admin-toolbar .toolbar-icon-admin-toolbar-tools-help:hover:before,
+.toolbar-icon-9.adminimal-admin-toolbar .toolbar-icon-admin-toolbar-tools-help:active:before,
+.toolbar-icon-9.adminimal-admin-toolbar .toolbar-icon-admin-toolbar-tools-help.is-active:before {
+  background-image: url(../images/ffffff/drupal-9.svg);
 }
 
 .adminimal-admin-toolbar .toolbar-tray-horizontal .menu-item--expanded:hover .toolbar-icon-system-admin-content:before,
